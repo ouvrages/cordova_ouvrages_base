@@ -16,7 +16,7 @@
 # * specific language governing permissions and limitations
 # * under the License.
 # 
-window.app =
+app =
   
   # Application Constructor
   initialize: ->
@@ -51,3 +51,5 @@ window.app =
     receivedElement.setAttribute "style", "display:block;"
     console.log "Received Event: " + id
     return
+
+app.initialize()
